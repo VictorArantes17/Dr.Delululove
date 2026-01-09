@@ -1,0 +1,62 @@
+
+import React from 'react';
+import { Language } from './types';
+
+export const TRANSLATIONS = {
+  [Language.EN]: {
+    title: "Dr. Delululove",
+    subtitle: "How I Learned to Love Reality",
+    myAge: "My Current Age",
+    iEarn: "My monthly income",
+    targetIncome: "Partner's minimum monthly income",
+    country: "Research Location",
+    ageRange: "Ideal Age Window",
+    calculate: "Execute Reality Audit",
+    reset: "New Case Study",
+    resultsTitle: "Market Truth Report",
+    menWhoMeetCriteria: "of single men in this area actually live within these standards.",
+    estimatedPool: "Estimated Real Men Pool:",
+    rarityScore: "Exclusivity Level™",
+    disclaimer: "Dr. Delululove uses official census data to bring clarity to the dating market. We translate numbers into real-life possibilities.",
+    mean: "National Average",
+    median: "Middle Income Point",
+    mode: "Most Common Reality",
+    reports: "Market Intelligence",
+    rarityHigh: "The Digital Mirage",
+    rarityMed: "High Demand",
+    rarityLow: "High Availability",
+    incomeNote: "Processed in local currency units.",
+    probabilityPrefix: "In this territory, about",
+    probabilitySuffix: "of men fit your exact criteria.",
+    sourceLabel: "Data Source:",
+    reliabilityLabel: "Audit Integrity:"
+  },
+  [Language.PT]: {
+    title: "Dr. Delululove",
+    subtitle: "Como Aprendi a Amar a Realidade",
+    myAge: "Minha Idade Atual",
+    iEarn: "Minha renda mensal",
+    targetIncome: "Renda mínima do parceiro",
+    country: "Local da Pesquisa",
+    ageRange: "Janela Etária Ideal",
+    calculate: "Executar Auditoria de Realidade",
+    reset: "Novo Estudo de Caso",
+    resultsTitle: "Relatório de Verdade do Mercado",
+    menWhoMeetCriteria: "dos homens solteiros nesta região vivem dentro destes padrões.",
+    estimatedPool: "Pool de Homens Reais Estimado:",
+    rarityScore: "Nível de Exclusividade™",
+    disclaimer: "Dr. Delululove utiliza dados oficiais para trazer clareza ao mercado de relacionamentos. Traduzimos números em possibilidades reais.",
+    mean: "Média Nacional",
+    median: "O Ponto de Equilíbrio",
+    mode: "A Realidade Mais Comum",
+    reports: "Inteligência de Mercado",
+    rarityHigh: "Miragem Digital",
+    rarityMed: "Alta Demanda",
+    rarityLow: "Alta Disponibilidade",
+    incomeNote: "Valores processados em unidades monetárias locais.",
+    probabilityPrefix: "Neste território, aproximadamente",
+    probabilitySuffix: "dos homens se encaixam nos seus critérios.",
+    sourceLabel: "Fonte de Dados:",
+    reliabilityLabel: "Integridade da Auditoria:"
+  }
+};

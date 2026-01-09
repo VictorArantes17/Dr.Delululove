@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Delululove - Auditoria de Realidade</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-deep: #020617;
+            --rose-accent: #f43f5e;
+            --slate-text: #f8fafc;
+        }
+        body { 
+          font-family: 'Outfit', sans-serif; 
+          background-color: var(--bg-deep); 
+          color: var(--slate-text); 
+          background-image: 
+            radial-gradient(circle at 5% 5%, rgba(244, 63, 94, 0.05), transparent 40%),
+            radial-gradient(circle at 95% 95%, rgba(139, 92, 246, 0.05), transparent 40%);
+          background-attachment: fixed;
+          -webkit-font-smoothing: antialiased;
+        }
+        
+        /* Unificando todas as fontes para Outfit */
+        .serif { font-family: 'Outfit', sans-serif; font-weight: 800; letter-spacing: -0.04em; }
+        
+        .glass-panel { 
+          background: rgba(15, 23, 42, 0.6); 
+          backdrop-filter: blur(20px); 
+          -webkit-backdrop-filter: blur(20px);
+          border: 1px solid rgba(244, 63, 94, 0.1); 
+        }
+
+        .rose-gold-text {
+          background: linear-gradient(to right, #f43f5e, #fb7185, #fda4af);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+        
+        html { scroll-behavior: smooth; }
+
+        .animate-float { animation: float 6s ease-in-out infinite; }
+        @keyframes float { 
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-15px); }
+        }
+        
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(244, 63, 94, 0.2); border-radius: 10px; }
+        
+        select { background-image: none !important; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "recharts": "https://esm.sh/recharts@^3.6.0",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0"
+  }
+}
+</script>
+</head>
+<body class="custom-scrollbar">
+    <div id="root"></div>
+</body>
+</html>
